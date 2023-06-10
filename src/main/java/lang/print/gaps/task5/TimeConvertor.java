@@ -5,4 +5,8 @@ public class TimeConvertor {
         float seconds = minutes * 60;
         System.out.println(seconds);
     }
+    public static void main(String[] args) {
+        TimeConvertor tc = new TimeConvertor();
+        tc.convert(10);
+    }
 }
